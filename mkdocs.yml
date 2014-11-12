@@ -1,0 +1,35 @@
+
+site_name: Runscripts
+site_url: /
+site_description: Official website of runscripts.
+repo_url: https://github.com/runscripts/runscripts
+use_absolute_urls: true
+# copyright: Copyright &copy; 2014 with MIT License
+
+dev_addr: '0.0.0.0:8000'
+docs_dir: zh
+# docs_dir: en
+# theme: readthedocs
+
+#include_search: true
+
+pages:
+
+# Index
+- ['index.md']
+
+# User Guide
+- ['user_guide/add-source-list.md', 'User Guide', 'Add Source List']
+
+# Official Scripts
+- ['official_scripts/pt-summary.md', 'Official Scripts', 'pt-summary']
+- ['official_scripts/get-pip.py.md', 'Official Scripts', 'get-pip.py']
+
+# Source List
+- ['source_list/wizawu-scripts.md', 'Source List', 'wizawu/scripts']
+- ['source_list/tobegit3hub-scripts.md', 'Source List', 'tobegit3hub/scripts']
+
+# Articles
+- ['articles/design-and-implement.md', 'Articles', 'Design And Implement']
+- ['articles/use-pt-summary-for-benchmark.md', 'Articles', 'Use pt-summary For Benchmard']
+
