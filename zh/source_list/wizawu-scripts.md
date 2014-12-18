@@ -1,2 +1,0 @@
-
-# wizawu/scipts

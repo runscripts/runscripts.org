@@ -1,6 +1,5 @@
-
 FROM ubuntu:12.04
-MAINTAINER tobe <tobeg3oogle@gmail.com>
+MAINTAINER tobe tobeg3oogle@gmail.com
 
 RUN apt-get update
 

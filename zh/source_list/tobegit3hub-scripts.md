@@ -1,2 +1,0 @@
-
-# tobegit3hub/scripts

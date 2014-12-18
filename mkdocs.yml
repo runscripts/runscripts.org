@@ -1,15 +1,13 @@
-
-site_name: Runscripts
+site_name: Run
 site_url: /
-site_description: Official website of runscripts.
-repo_url: https://github.com/runscripts/runscripts
+site_description: Official website of run
+repo_url: https://github.com/runscripts/run
 use_absolute_urls: true
 # copyright: Copyright &copy; 2014 with MIT License
 
 dev_addr: '0.0.0.0:8000'
-docs_dir: zh
-# docs_dir: en
-# theme: readthedocs
+docs_dir: docs
+theme: mkdocs
 
 #include_search: true
 
@@ -18,8 +16,16 @@ pages:
 # Index
 - ['index.md']
 
-# User Guide
-- ['user_guide/add-source-list.md', 'User Guide', 'Add Source List']
+# Get Started
+- ['get_started/add-source-list.md', 'Get Started', 'Add Source List']
+- ['get_started/faq.md', 'Get Started', "FAQ"]
+
+# Installation
+- ['installation/linux.md', 'Installation', 'Linux']
+- ['installation/debain.md', 'Installation', 'Debain/Ubuntu']
+- ['installation/macos.md', 'Installation', 'MacOS']
+- ['installation/freebsd.md', 'Installation', 'FreeBSD']
+- ['installation/arm.md', 'Installation', 'ARM']
 
 # Official Scripts
 - ['official_scripts/pt-summary.md', 'Official Scripts', 'pt-summary']
