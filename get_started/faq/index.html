@@ -58,7 +58,15 @@
                         <ul class="dropdown-menu">
                         
                             <li >
-                                <a href="../add-source-list">Add Source List</a>
+                                <a href="../why_use_run">Why Use Run</a>
+                            </li>
+                        
+                            <li >
+                                <a href="../usage">Usage</a>
+                            </li>
+                        
+                            <li >
+                                <a href="../add_source">Add Source</a>
                             </li>
                         
                             <li class="active">
@@ -73,6 +81,10 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Installation <b class="caret"></b></a>
                         <ul class="dropdown-menu">
+                        
+                            <li >
+                                <a href="../../installation/source_code">Source Code</a>
+                            </li>
                         
                             <li >
                                 <a href="../../installation/linux">Linux</a>
@@ -158,12 +170,12 @@
                 
                 
                 <li >
-                    <a rel="next" href="../add-source-list">
+                    <a rel="next" href="../add_source">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../../installation/linux">
+                    <a rel="prev" href="../../installation/source_code">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -189,10 +201,38 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
+        <li class="main active"><a href="#faq">FAQ</a></li>
+        
+            <li><a href="#how-to-integrate-with-gitlab">How to integrate with gitlab?</a></li>
+        
+            <li><a href="#why-we-need-run-init">Why we need run --init?</a></li>
+        
+            <li><a href="#support-private-repository-or-not">Support private repository or not?</a></li>
+        
+            <li><a href="#support-windows-or-not">Support Windows or not?</a></li>
+        
+    
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
+<h2 id="faq">FAQ</h2>
+<h3 id="how-to-integrate-with-gitlab">How to integrate with gitlab?</h3>
+<blockquote>
+<p>You can simply add new source of gitlab in <code>run.conf</code>.</p>
+</blockquote>
+<h3 id="why-we-need-run-init">Why we need run --init?</h3>
+<blockquote>
+<p>We have to initialize directories and configuration file after downloading the binary <code>run</code>.</p>
+</blockquote>
+<h3 id="support-private-repository-or-not">Support private repository or not?</h3>
+<blockquote>
+<p>Nope. Currently we can only download scripts from public repositories.</p>
+</blockquote>
+<h3 id="support-windows-or-not">Support Windows or not?</h3>
+<blockquote>
+<p>Nope. Most scrips are not compatible in Windows, so <code>run</code> doesn't support it now.</p>
+</blockquote>
 </div>
             
         </div>

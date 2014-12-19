@@ -6,10 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="/official_scripts/pt-summary/">
+        <link rel="canonical" href="/get_started/add_source/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-        <title>pt-summary - Run</title>
+        <title>Add Source - Run</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -53,24 +53,24 @@
                 <ul class="nav navbar-nav">
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Get Started <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             <li >
-                                <a href="../../get_started/why_use_run">Why Use Run</a>
+                                <a href="../why_use_run">Why Use Run</a>
                             </li>
                         
                             <li >
-                                <a href="../../get_started/usage">Usage</a>
+                                <a href="../usage">Usage</a>
+                            </li>
+                        
+                            <li class="active">
+                                <a href=".">Add Source</a>
                             </li>
                         
                             <li >
-                                <a href="../../get_started/add_source">Add Source</a>
-                            </li>
-                        
-                            <li >
-                                <a href="../../get_started/faq">FAQ</a>
+                                <a href="../faq">FAQ</a>
                             </li>
                         
                         </ul>
@@ -111,16 +111,16 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Official Scripts <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
-                            <li class="active">
-                                <a href=".">pt-summary</a>
+                            <li >
+                                <a href="../../official_scripts/pt-summary">pt-summary</a>
                             </li>
                         
                             <li >
-                                <a href="../get-pip.py">get-pip.py</a>
+                                <a href="../../official_scripts/get-pip.py">get-pip.py</a>
                             </li>
                         
                         </ul>
@@ -170,12 +170,12 @@
                 
                 
                 <li >
-                    <a rel="next" href="../../installation/arm">
+                    <a rel="next" href="../usage">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../get-pip.py">
+                    <a rel="prev" href="../faq">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -201,14 +201,28 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#pt-summary">Pt-summary</a></li>
+        <li class="main active"><a href="#add-source">Add Source</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="pt-summary">Pt-summary</h1>
+<h1 id="add-source">Add Source</h1>
+<p>Please checkout <code>/etc/run.conf</code> and we have add some sources for you.</p>
+<pre><code>[sources]
+default: https://raw.githubusercontent.com/runscripts/scripts/master/%s
+bitbucket: https://bitbucket.org/%s/%s/raw/master/%s
+gitcafe: https://gitcafe.com/%s/%s/blob/master/%s
+github: https://raw.githubusercontent.com/%s/%s/master/%s
+https: https:%s
+http: http:%s
+</code></pre>
+
+<p>You can simply add your repository in source list like this.</p>
+<pre><code>tobe: https://raw.githubusercontent.com/tobegit3hub/scripts/master/%s
+</code></pre>
+
 </div>
             
         </div>
