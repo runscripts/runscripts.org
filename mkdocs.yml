@@ -17,10 +17,13 @@ pages:
 - ['index.md']
 
 # Get Started
-- ['get_started/add-source-list.md', 'Get Started', 'Add Source List']
+- ['get_started/why_use_run.md', 'Get Started', 'Why Use Run']
+- ['get_started/usage.md', 'Get Started', "Usage"]
+- ['get_started/add_source.md', 'Get Started', 'Add Source']
 - ['get_started/faq.md', 'Get Started', "FAQ"]
 
 # Installation
+- ['installation/source_code.md', 'Installation', 'Source Code']
 - ['installation/linux.md', 'Installation', 'Linux']
 - ['installation/debain.md', 'Installation', 'Debain/Ubuntu']
 - ['installation/macos.md', 'Installation', 'MacOS']
