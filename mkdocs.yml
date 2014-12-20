@@ -3,7 +3,7 @@ site_url: /
 site_description: Official website of run
 repo_url: https://github.com/runscripts/run
 use_absolute_urls: true
-# copyright: Copyright &copy; 2014 with MIT License
+copyright: Copyright &copy; 2014 with MIT License
 
 dev_addr: '0.0.0.0:8000'
 docs_dir: docs
