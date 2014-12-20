@@ -35,10 +35,8 @@ pages:
 - ['official_scripts/get-pip.py.md', 'Official Scripts', 'get-pip.py']
 
 # Source List
-- ['source_list/wizawu-scripts.md', 'Source List', 'wizawu/scripts']
-- ['source_list/tobegit3hub-scripts.md', 'Source List', 'tobegit3hub/scripts']
+- ['source_list/tobegit3hub_scripts.md', 'Source List', 'tobegit3hub/scripts']
 
 # Articles
-- ['articles/design-and-implement.md', 'Articles', 'Design And Implement']
-- ['articles/use-pt-summary-for-benchmark.md', 'Articles', 'Use pt-summary For Benchmark']
+- ['articles/use_pt_summary_for_benchmark.md', 'Articles', 'Use pt-summary For Benchmark']
 
