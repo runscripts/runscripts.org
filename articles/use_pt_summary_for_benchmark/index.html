@@ -6,10 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="/get_started/faq/">
+        <link rel="canonical" href="/articles/use_pt_summary_for_benchmark/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-        <title>FAQ - Run</title>
+        <title>Use pt-summary For Benchmark - Run</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -53,24 +53,24 @@
                 <ul class="nav navbar-nav">
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Get Started <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             <li >
-                                <a href="../why_use_run">Why Use Run</a>
+                                <a href="../../get_started/why_use_run">Why Use Run</a>
                             </li>
                         
                             <li >
-                                <a href="../usage">Usage</a>
+                                <a href="../../get_started/usage">Usage</a>
                             </li>
                         
                             <li >
-                                <a href="../add_source">Add Source</a>
+                                <a href="../../get_started/add_source">Add Source</a>
                             </li>
                         
-                            <li class="active">
-                                <a href=".">FAQ</a>
+                            <li >
+                                <a href="../../get_started/faq">FAQ</a>
                             </li>
                         
                         </ul>
@@ -141,12 +141,12 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Articles <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
-                            <li >
-                                <a href="../../articles/use_pt_summary_for_benchmark">Use pt-summary For Benchmark</a>
+                            <li class="active">
+                                <a href=".">Use pt-summary For Benchmark</a>
                             </li>
                         
                         </ul>
@@ -162,12 +162,12 @@
                 
                 
                 <li >
-                    <a rel="next" href="../add_source">
+                    <a rel="next" href="../../source_list/tobegit3hub_scripts">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
-                <li >
-                    <a rel="prev" href="../../installation/source_code">
+                <li class="disabled">
+                    <a rel="prev" >
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -193,38 +193,51 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#faq">FAQ</a></li>
+        <li class="main active"><a href="#benchmark">Benchmark</a></li>
         
-            <li><a href="#how-to-integrate-with-gitlab">How to integrate with gitlab?</a></li>
-        
-            <li><a href="#why-we-need-run-init">Why we need run --init?</a></li>
-        
-            <li><a href="#support-private-repository-or-not">Support private repository or not?</a></li>
-        
-            <li><a href="#support-windows-or-not">Support Windows or not?</a></li>
+    
+        <li class="main "><a href="#pt-summary">Pt-summary</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h2 id="faq">FAQ</h2>
-<h3 id="how-to-integrate-with-gitlab">How to integrate with gitlab?</h3>
-<blockquote>
-<p>You can simply add new source of gitlab in <code>run.conf</code>.</p>
-</blockquote>
-<h3 id="why-we-need-run-init">Why we need run --init?</h3>
-<blockquote>
-<p>We have to initialize directories and configuration file after downloading the binary <code>run</code>.</p>
-</blockquote>
-<h3 id="support-private-repository-or-not">Support private repository or not?</h3>
-<blockquote>
-<p>Nope. Currently we can only download scripts from public repositories.</p>
-</blockquote>
-<h3 id="support-windows-or-not">Support Windows or not?</h3>
-<blockquote>
-<p>Nope. Most scrips are not compatible in Windows, so <code>run</code> doesn't support it now.</p>
-</blockquote>
+<h2 id="benchmark">Benchmark</h2>
+<p>In computing, a benchmark is the act of running a computer program, a set of programs, or other operations, in order to assess the relative performance of an object, normally by running a number of standard tests and trials against it. The term 'benchmark' is also mostly utilized for the purposes of elaborately-designed benchmarking programs themselves.</p>
+<p>Benchmarking is usually associated with assessing performance characteristics of computer hardware, for example, the floating point operation performance of a CPU, but there are circumstances when the technique is also applicable to software. Software benchmarks are, for example, run against compilers or database management systems.</p>
+<p>Benchmarks provide a method of comparing the performance of various subsystems across different chip/system architectures.</p>
+<h2 id="pt-summary">Pt-summary</h2>
+<p>We alway use pt-summary to checkout the settings of the server.</p>
+<pre><code>➜  run pt-summary
+Password:
+# Percona Toolkit System Summary Report ######################
+        Date | 2014-12-20 02:13:03 UTC (local TZ: CST +0800)
+    Hostname | localhost
+      Uptime |  1:57, 2 users, load averages: 8.50 6.54 6.29
+    Platform | Darwin
+     Release |
+      Kernel |
+Architecture | CPU = 32-bit, OS = 64-bit
+ Virtualized | No virtualization detected
+# Processor ##################################################
+# Memory #####################################################
+     UsedRSS | 3.7G
+# Mounted Filesystems ########################################
+  Filesystem  Size Used Type  Opts        Mountpoint
+  /dev/disk1 112Gi  88% on                25597350
+  /dev/disk2  39Mi   5% on    Volumes/磁盘映 399
+  devfs      186Ki 100% on    de          644
+  map        -hosts  0Bi /net  host        100%
+  map        -hosts  0Bi /net  uto_hom     100%
+  map        auto_home  0Bi /home host        100%
+  map        auto_home  0Bi /home uto_hom     100%
+# RAID Controller ############################################
+  Controller | No RAID controller detected
+# Top Processes ##############################################
+......
+</code></pre>
+
 </div>
             
         </div>
