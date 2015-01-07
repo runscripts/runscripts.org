@@ -1,6 +1,6 @@
 ## Introduction
 
-[Runscripts.org](http://runscripts.org) is the official website of [run](https://github.com/runscritps/run).
+[Runscripts.org](http://runscripts.org) is the official website of [run](https://github.com/runscripts/run).
 
 Our team will update the usage and anything about `run` in this website. It's built with [mkdocs](https://github.com/tomchristie/mkdocs/) so you can easily read the document in local host.
 
